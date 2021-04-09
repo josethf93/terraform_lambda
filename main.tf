@@ -8,6 +8,7 @@ resource "aws_lambda_function" "myfunc" {
   runtime          = "python3.8"
 }
 
+
 resource "aws_iam_role" "iam_for_lambda" {
   name = "iam_for_lambda"
 
